@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="24dp">
+
+    <EditText android:id="@+id/etDonorName"
+        android:hint="Donor Name (Optional)"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etAmount"
+        android:hint="Amount (R)"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <CheckBox android:id="@+id/cbRepeat"
+        android:text="Repeat Monthly?"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnDonate"
+        android:text="Donate"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
